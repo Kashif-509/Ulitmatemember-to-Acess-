@@ -89,9 +89,9 @@ class MembershipSyncAPI {
         return [
             'record_identifier' => 'USER_' . sanitize_text_field($user->user_login),
             'record_type' => 'MEM_SYN',
-            'program_customer_identifier' => '204200',
+            'program_customer_identifier' => '2200',
             'member_customer_identifier' => strtoupper('TDC_' . $user->ID),
-            'organization_customer_identifier' => '204200',
+            'organization_customer_identifier' => '4200',
             'previous_member_customer_identifier' => null,
             'member_status' => $status,
             'subscription_type' => $subscription_type,
